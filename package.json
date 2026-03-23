@@ -1,0 +1,16 @@
+{
+  "name": "redirect-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app to redirect to Google",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["nodejs", "redirect", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
