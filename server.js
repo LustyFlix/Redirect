@@ -1,17 +1,16 @@
 const express = require('express');
 const app = express();
 
-// Redirect route
 app.get('/', (req, res) => {
-    res.redirect('https://www.google.com');
+    res.send(`
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Redirecting...</title>
+            <script src="https://pl28964326.profitablecpmratenetwork.com/22/34/69/223469c518749381c30c0327009c74f9.js"></script>
+        </head>
+        </html>
+    `);
 });
 
-// Optional: catch all routes
-app.get('*', (req, res) => {
-    res.redirect('https://www.google.com');
-});
-
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-});
+app.listen(3000, () => console.log('Running on http://localhost:3000'));
